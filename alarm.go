@@ -13,7 +13,7 @@ import (
 */
 
 func Remind(text string, paus time.Duration) {
-	//a for loop running forever - the klock will tick forever
+	//a for loop running forever - the clock will tick forever
 	for {
 		time.Sleep(paus)
 		fmt.Print("The time is", time.Now().Format("15:04:05"), ": ", text)
